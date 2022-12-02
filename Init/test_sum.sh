@@ -7,9 +7,9 @@ Correct_Output_Array=("4")
 
 Output_Array=($outputEXE)
 
-#for i in ${Output_Array[*]}; do
-#  echo $i
-#done
+for i in ${Output_Array[*]}; do
+  echo $i
+done
 
 # Test Length output
 if [ ${#Correct_Output_Array[@]} -ne ${#Output_Array[@]} ]; then
@@ -25,10 +25,10 @@ do
               exit 1
        fi
 done
-
+echo "Test 1 OK!"
 ## Test 20 + 6
 #Init data
-outputEXE=$(./calcul.out "13" "*" "2")
+outputEXE=$(./calcul.out "13" "x" "2")
 Correct_Output_Array=("26")
 
 Output_Array=($outputEXE)
@@ -51,6 +51,6 @@ do
               exit 1
        fi
 done
-
+echo "Test 2 OK!"
 echo "All tests passed."
 exit 0
