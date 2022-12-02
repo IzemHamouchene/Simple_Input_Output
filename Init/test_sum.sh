@@ -2,7 +2,7 @@ echo "Start test ..."
 
 ## Test 2 + 2
 #Init data
-outputEXE=$(./sum.out "2" "2")
+outputEXE=$(./calcul.out "2" "+" "2")
 Correct_Output_Array=("4")
 
 Output_Array=($outputEXE)
@@ -28,7 +28,7 @@ done
 
 ## Test 20 + 6
 #Init data
-outputEXE=$(./sum.out "20" "6")
+outputEXE=$(./sum.out "13" "*" "2")
 Correct_Output_Array=("26")
 
 Output_Array=($outputEXE)
