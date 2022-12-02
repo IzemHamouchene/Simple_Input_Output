@@ -8,6 +8,6 @@ int main(int argc, char *argv[]) {
    
    //==== Output
    //Affichage le résultat sous cette forme
-   //printf("%d", XXXXX);
+   //printf("%d\n", XXXXX); // Ajouter \n pour chaque ligne de sortie.
    return 0;
 }
