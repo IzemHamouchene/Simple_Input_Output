@@ -6,5 +6,5 @@ test1:
 	(cd Init/; bash test_input_output.sh)
 	
 test2: 
-	gcc Calcul.c -o Init/sum.out
+	gcc Calcul.c -o Init/calcul.out
 	(cd Init/; bash test_sum.sh)
