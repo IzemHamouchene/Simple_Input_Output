@@ -28,7 +28,7 @@ done
 
 ## Test 20 + 6
 #Init data
-outputEXE=$(./sum.out "13" "*" "2")
+outputEXE=$(./calcul.out "13" "*" "2")
 Correct_Output_Array=("26")
 
 Output_Array=($outputEXE)
